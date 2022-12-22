@@ -1,0 +1,23 @@
+* {
+  /* font-family: Exo, sans-serif; */
+  font-family: "Josefin Sans";
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f6f6;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border-radius: 4px;
+}
